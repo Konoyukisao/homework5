@@ -9,7 +9,7 @@ my_list[2] = "watermelon"; print(my_list)
 
 my_dict = {'hospital': 'больница', 'policeman': 'полицейский', 'food': 'еда', 'sword art online': 'мастера меча онлайн'}
 print(my_dict)
-mini_dict = ('hospital', 'policeman', 'food', 'sword art online')
+mini_dict = ('hospital', 'policeman', 'food', 'sword art online') # mini_dict = (set(my_dict.keys())) - способ достать ключи, не выписывая вручную.
 print('Я могу перевести следующие слова или сочетания слов с аглиского на русский:', mini_dict, 'выберите любое слово или сочитание.')
 user_word = input('')
 if user_word in mini_dict:
